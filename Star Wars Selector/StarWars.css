@@ -1,0 +1,143 @@
+body {
+        background-image: url('learning.jpg');
+    }
+
+div{
+        text-align:center;
+        
+}
+#download {
+        margin: center;
+        background-color: #70AD47;
+        color: #ffffff;
+        border: 1px #000000;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        opacity: 0;
+}
+
+#reset {
+        margin: center;
+        background-color: #C00000;
+        color: #ffffff;
+        border: 1px #000000;
+        padding: 10px 43px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        opacity: 0;
+}
+    
+h1 {    
+        box-sizing: border-box;
+        width: 300px;
+        height: 120px;
+        background-color: #ffffff;
+        background-image: url("face.png");
+        background-size: 140px 120px;
+        background-repeat: no-repeat;
+        color: black;
+        font-family: arial;
+        font-style: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: right;
+        padding: 55px 10px;
+}
+
+#face {
+        width: 120px;
+        height: 120px;
+        float: left;
+        position: relative;
+        margin-top: -55px;
+        margin-left: -10px;
+}
+
+#next {
+        background-color: black;
+        border: none;
+        position: absolute;
+        width: 70px;
+        height: 40px;
+        top: 70%;
+        left: 92.5%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        opacity: 1;        
+}
+
+#prev {
+        background-color: black;
+        border: none;
+        position: absolute;
+        width: 70px;
+        height: 40px;
+        top: 70%;
+        right: 90%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        opacity: 0;  
+        
+}
+
+#arrow1{
+        position: relative;
+        top: 0%;
+        left: -10%;
+        width: 70px;
+        height: 30px;
+        opacity: 1;
+        
+}
+
+#arrow2{
+        position: relative;
+        top: 0%;
+        left: -10%;
+        width: 70px;
+        height: 30px;
+        opacity: 1;
+        
+}
+
+
+.column {
+        display: inline;
+        float: left;
+        width: 300px;
+        padding: 10px;
+}
+.row {
+        float: center;
+        margin-left: 150px;
+}
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        height: 50%;        
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    
+p {
+        color: white; 
+        font-family: arial;
+        text-align: center;
+        margin-top: 0px;
+    }

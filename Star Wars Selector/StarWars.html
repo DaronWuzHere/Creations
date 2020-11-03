@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="StarWars.css">
+	<title>Star Wars Selector</title>   
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="StarWars.js" charset="utf-8"></script>
+
+
+<body>
+    <div>
+        <img src="starwarslogo.png" alt="Star Wars">        
+    </div>
+    
+    <div>
+        <p id="sel">SELECT THREE CHARACTERS!</p>
+    </div>
+    <div>
+        <button type=button id="download"> DOWNLOAD </button>
+        <button type=button id="reset" onClick="window.location.reload();"> RESET </button>
+    </div>
+    
+    <div class = "row">
+        <div class = "column"> 
+            <h1 id='name1'></img></h1>
+        </div>
+        
+        <div class = "column"> 
+            <h1 id='name2'></img></h1>
+        </div>
+        
+        <div class = "column"> 
+            <h1 id='name3'></img></h1>
+        </div>
+    </div>
+    
+    <div class = "row">
+    
+        <button type= button id="prev"><img src="arrow2.png" alt="arrow" id="arrow2"></img></button>        
+        
+        <div class = "column"> 
+            <h1 id='name4'></img></h1>
+        </div>
+        
+        <div class = "column"> 
+            <h1 id='name5'></img></h1>
+        </div>
+        
+        <div class = "column"> 
+            <h1 id='name6'></img></h1>
+        </div>
+        
+        <button type= button id="next"><img src="arrow1.png" alt="arrow" id="arrow1"></img></button>        
+        
+    </div>
+    
+    <div class = "row">
+        <div class = "column"> 
+            <h1 id='name7'></img></h1>
+        </div>
+        
+        <div class = "column"> 
+            <h1 id='name8'></img></h1>
+        </div>
+        
+        <div class = "column"> 
+            <h1 id='name9'></img></h1>
+        </div>
+    </div>
+    
+    <div> 
+        <p id='page'>PAGE 1/8</p>
+    </div>
+
+</body>
+</html>
